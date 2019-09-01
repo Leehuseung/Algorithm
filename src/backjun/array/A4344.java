@@ -1,3 +1,5 @@
+package backjun.array;
+
 import java.util.Scanner;
 
 public class A4344 {
