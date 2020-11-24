@@ -1,4 +1,4 @@
-package backjun;
+package backjun.etc;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

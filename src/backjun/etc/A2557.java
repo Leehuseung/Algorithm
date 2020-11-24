@@ -1,4 +1,4 @@
-package backjun;
+package backjun.etc;
 
 public class A2557 {
 	public static void main(String[] args) {

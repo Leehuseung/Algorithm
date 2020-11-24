@@ -1,4 +1,4 @@
-package backjun;
+package backjun.etc;
 import java.util.*;
 
 public class A10869 {

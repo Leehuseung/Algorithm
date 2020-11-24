@@ -1,4 +1,4 @@
-package backjun;
+package backjun.etc;
 
 import java.util.Scanner;
 public class A9498 {
