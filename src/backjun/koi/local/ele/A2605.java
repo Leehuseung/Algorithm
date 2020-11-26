@@ -18,6 +18,8 @@ public class A2605 {
 			arr[i] = i+1;
 		}
 		
+
+		
 		
 		int tempIndex = 0;
 		int temp = 0;
