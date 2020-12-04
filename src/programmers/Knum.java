@@ -33,5 +33,10 @@ public class Knum {
 		int[][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
 		
 		System.out.println(Arrays.toString(solution(array,commands)));
+
+
+		System.out.println(Arrays.toString(solution(array,commands)));
+
+
 	}
 }
