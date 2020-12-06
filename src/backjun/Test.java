@@ -5,7 +5,8 @@ public class Test {
 		//a//f
 		//dd
 		//grgrg
-		//v
+		//v/
+		//ss
 		//ddd
 		int n = 120;
 		System.out.println(n%=60);
