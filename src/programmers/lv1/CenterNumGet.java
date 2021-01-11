@@ -1,4 +1,4 @@
-package programmers;
+package programmers.lv1;
 
 public class CenterNumGet {
     public static void main(String[] args) {

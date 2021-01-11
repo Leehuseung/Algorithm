@@ -1,4 +1,4 @@
-package programmers;
+package programmers.lv1;
 
 public class MobileNumHide {
     public static void main(String[] args) {

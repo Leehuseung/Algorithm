@@ -1,6 +1,5 @@
-package programmers;
+package programmers.lv1;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class StringBatch {
