@@ -1,8 +1,4 @@
-package programmers;
-
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
+package programmers.lv1;
 
 public class Year2016 {
     class Solution {

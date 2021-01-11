@@ -1,4 +1,4 @@
-package programmers;
+package programmers.lv1;
 
 public class FindKim {
     public static void main(String[] args) {
