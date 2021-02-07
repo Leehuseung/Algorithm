@@ -2,7 +2,7 @@ package backjun.greedy;
 
 import java.util.Scanner;
 
-public class A1459 {
+public class A5585 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
