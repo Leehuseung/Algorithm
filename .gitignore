@@ -139,4 +139,8 @@ fabric.properties
 
 .idea/vcs.xml
 
-.idea/*
+.idea/*Algorithm.iml
+
+.idea/
+
+Algorithm.iml
