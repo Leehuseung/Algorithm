@@ -1,6 +1,5 @@
 package backjun.etc;
 
-import sun.awt.image.ImageWatched;
 
 import java.io.BufferedReader;
 import java.io.IOException;
