@@ -1,15 +1,9 @@
 package programmers.lv1;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 
-class Solution {
+class AddTwoNumber {
     public int[] solution(int[] numbers) {
         Set set = new HashSet<Integer>();
         for(int i = 0 ; i < numbers.length ; i++) {
@@ -27,10 +21,6 @@ class Solution {
         for(int i = 0 ; i < list.size(); i++) {
         	answer[i] = (Integer)list.get(i);
         }
-        //zz
-        //testfdsfdsf
-        //testfdsfdsfdd
-        //testfdsfdsf
         return answer;
     }
 }
