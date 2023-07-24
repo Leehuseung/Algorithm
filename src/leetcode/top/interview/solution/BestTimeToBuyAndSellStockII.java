@@ -1,4 +1,4 @@
-package leetcode.top.interview;
+package leetcode.top.interview.solution;
 
 
 /**
