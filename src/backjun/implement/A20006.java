@@ -48,52 +48,54 @@ public class A20006 {
             rooms.get(i).print();
         }
     }
-}
 
-class Room {
-    List<User> users;
-    int range;
-    int max;
-    public Room(User user, int max) {
-        this.users = new ArrayList<>();
-        users.add(user);
-        this.range = user.score;
-        this.max = max;
-    }
-    public boolean isMax() {
-        return max == users.size();
-    }
-    public void addUser(User user){
-        users.add(user);
+    static class User {
+        int score;
+        String name;
+
+        public User(int score, String name) {
+            this.score = score;
+            this.name = name;
+        }
     }
 
-    public void print(){
-        Collections.sort(this.users, new Comparator<User>() {
-            @Override
-            public int compare(User o1, User o2) {
-                return o1.name.compareTo(o2.name);
+    static class Room {
+        List<User> users;
+        int range;
+        int max;
+        public Room(User user, int max) {
+            this.users = new ArrayList<>();
+            users.add(user);
+            this.range = user.score;
+            this.max = max;
+        }
+        public boolean isMax() {
+            return max == users.size();
+        }
+        public void addUser(User user){
+            users.add(user);
+        }
+
+        public void print(){
+            Collections.sort(this.users, new Comparator<User>() {
+                @Override
+                public int compare(User o1, User o2) {
+                    return o1.name.compareTo(o2.name);
+                }
+            });
+            if(isMax()) {
+                System.out.println("Started!");
+            } else {
+                System.out.println("Waiting!");
             }
-        });
-        if(isMax()) {
-            System.out.println("Started!");
-        } else {
-            System.out.println("Waiting!");
+            for (int i = 0; i < this.users.size(); i++) {
+                System.out.println(users.get(i).score + " " + users.get(i).name);
+            }
         }
-        for (int i = 0; i < this.users.size(); i++) {
-            System.out.println(users.get(i).score + " " + users.get(i).name);
+        public boolean isRange(User user) {
+            return this.range + 10 >= user.score && this.range-10 <= user.score;
         }
     }
-    public boolean isRange(User user) {
-        return this.range + 10 >= user.score && this.range-10 <= user.score;
-    }
-}
 
-class User {
-    int score;
-    String name;
 
-    public User(int score, String name) {
-        this.score = score;
-        this.name = name;
-    }
 }
