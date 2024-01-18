@@ -1,4 +1,4 @@
-package backjun.function;
+package backjun.math;
 
 import java.util.Arrays;
 

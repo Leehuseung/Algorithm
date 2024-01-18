@@ -1,4 +1,4 @@
-package backjun.koi2005;
+package backjun.koi;
 
 import java.io.BufferedReader;
 import java.io.IOException;

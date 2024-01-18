@@ -59,7 +59,7 @@
 1 0 0 0 1
 1 0 0 0 0
  */
-package backjun.koi2020_1.ele;
+package backjun.koi;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

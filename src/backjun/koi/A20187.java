@@ -1,4 +1,4 @@
-package backjun.koi2020_2.ele;
+package backjun.koi;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

@@ -1,6 +1,7 @@
 package backjun.etc;
 
 
+import java.awt.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -81,15 +82,16 @@ public class A2178 {
         return true;
     }
 
-
-}
-
-class Point{
-    int x;
-    int y;
-    public Point(int x, int y){
-        this.x = x;
-        this.y = y;
+    static class Point{
+        int x;
+        int y;
+        public Point(int x, int y){
+            this.x = x;
+            this.y = y;
+        }
     }
+
+
+
 }
 

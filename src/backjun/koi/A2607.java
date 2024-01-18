@@ -1,4 +1,4 @@
-package backjun.koi.local.ele;
+package backjun.koi;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package backjun.use_while;
+package backjun.math;
 
 import java.util.Scanner;
 

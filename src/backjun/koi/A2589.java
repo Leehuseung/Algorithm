@@ -1,5 +1,6 @@
-package backjun.koi.local.ele;
+package backjun.koi;
 
+import java.awt.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -102,15 +103,15 @@ WLLWLWW
         }
         return true;
     }
-}
 
-class Point{
-    int x;
-    int y;
-    int count;
-    public Point(int x, int y, int count){
-        this.x = x;
-        this.y = y;
-        this.count = count;
+    static class Point{
+        int x;
+        int y;
+        int count;
+        public Point(int x, int y, int count){
+            this.x = x;
+            this.y = y;
+            this.count = count;
+        }
     }
 }

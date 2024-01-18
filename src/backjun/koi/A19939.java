@@ -1,4 +1,4 @@
-package backjun.koi2020_1.ele;
+package backjun.koi;
 
 import java.util.Scanner;
 

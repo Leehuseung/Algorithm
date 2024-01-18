@@ -1,4 +1,4 @@
-package backjun.koi2004.ele;
+package backjun.koi;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
