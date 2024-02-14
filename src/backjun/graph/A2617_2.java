@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * 구슬 찾기 (못품..)
+ * 구슬 찾기
  */
 public class A2617_2 {
     static int aim = 0;
@@ -41,17 +41,15 @@ public class A2617_2 {
             visited = new boolean[N+1];
             dfs(i, i, parentInfo);
         }
-        for (int i = 1; i < N; i++) {
-            if(aim <= answers[i]) result++;
-        }
-            answers = new int[N+1];
+        for (int i = 1; i <= N; i++) if (aim <= answers[i]) result++;
+
+
+        answers = new int[N+1];
         for (int i = 1; i <= N; i++) {
             visited = new boolean[N+1];
             dfs(i, i, childInfo);
         }
-        for (int i = 1; i < N; i++) {
-            if(aim <= answers[i]) result++;
-        }
+        for (int i = 1; i <= N; i++) if (aim <= answers[i]) result++;
 
         System.out.println(result);
     }
