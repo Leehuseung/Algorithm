@@ -30,7 +30,5 @@
 ## 🛠 Tech & Language
 
 - Java
-- JavaScript (Node.js)
-- Python (간단 풀이용)
 
 ---
